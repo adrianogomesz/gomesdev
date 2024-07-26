@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk:MORF,SHLN@6,28.4&family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Página de Inicial */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #008FE0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #001050;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-bottom: 3px solid #000;
+
+}
+
+.header-container__logo {
+    padding-left: 20px;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+
+}
+
+.header-container__logo__highlight {
+    color: burlywood;
+}
+
+.header-container__navbar__item {
+    display: inline;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+
+.header-container__navbar__item__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+
+.header-container__navbar__item__link:hover {
+    color: burlywood;
+    border-radius: 16px;
+    border-right: 3px solid #FFF;
+    border-left: 3px solid #FFF;
+}
+
+.header-container__button {
+    background-color: burlywood;
+    color: #FFF;
+    height: 30px;
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.header-container__button:hover {
+    background-color: yellowgreen;
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 15% 10%
+    
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-section__title {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'Krona One', sans-serif;
+    width: 90vh;
+    padding: 0 0 30px 0;
+
+}
+
+.main-section__title__highlight {
+    color: #001050 ;
+
+}
+
+.main-section__text__highlight {
+    color: #001050;
+    font-weight: bold;
+
+}
+
+.main-section__text {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: #DBF3E6;
+    padding: 0 0 30px 0;
+
+}
+
+.main-section__links {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 15px;
+
+}
+
+.main-section__links__icon {
+    height: 32px;
+    width: 32px;
+    box-shadow: 4px 2px 3px black;
+
+}
+
+.main-section__links__icon__circle {
+    height: 32px;
+    width: 32px;
+    box-shadow: 4px 2px 3px black;
+    border-radius: 16px;
+
+}
+
+/* Página de Certificados */
+
+.main-container {
+    margin: 15px 35px 0px 35px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-container__div {
+    display: flex;
+    justify-content: center;
+    padding:0 0 100px 0;
+    
+}
+
+.main-container__div__title {
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    color: #FFF;
+    font-style: normal;
+    border-bottom: 3px solid burlywood;
+    border-radius: 16px;
+    width: 500px;
+
+}
+
+.certificados-container {
+    height: 100vh;
+    width: 100vw;
+    padding: 0 25px 0 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    gap: 2px;
+}
+
+.certificados-container__div {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.certificado-container__image {
+    height: 20rem;
+    width: 30rem;
+    border: 5px solid burlywood;
+    box-shadow: 4px 2px 3px black;
+    box-sizing: border-box;
+    
+}
+
+.certificados-container__title__link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.certificados-container__title {
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #725BA1;
+    border: 3px solid #725BA1;
+    border-radius: 16px;
+    
+}
+
+.certificados-container__title:hover {
+    color: #0E006D;
+    border-color: #0E006D;
+    background-color: #C8C5EB;
+
+}
+
+
+
+
+
+
+
+
